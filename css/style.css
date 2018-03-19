@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+.header {
+    background: #705ea2;
+    padding: 20px 0 20px;
+}
+
+.prorile-picture{
+    background: url(../img/profile-picturess.png) center no-repeat;
+    background-size: 245px;
+    border: 10px solid #7d9bc3;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /*width: 300px;*/
+    height: 250px;
+    width: 250px;
+}
+
+.name-about h1{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.name-about h3{
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.name-about__par{
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 13px;
+}
+
+.icons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.icons .icons-block {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+.icons .icons-block .icons-bgc {
+    background-color: #b1d2ef;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons .icons-block .icons-bgc__link {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 15px;
+    font-family: 'Lato';
+}
+
+.icons .icons-block .icons-bgc__link:hover {
+    color: #c3d7ef;
+}
+
+.professional-skills{
+    font-family: 'Lobster', cursive;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    color: #4d5a62;
+    font-size: 28px;
+/*    margin-top: 25px;*/
+    margin-top: 70px;
+}
+
+.professional-skills:after{
+    content:"";
+    display: inline-block;
+    background-color: #4d5a62;
+    width: 234px;
+    height: 4px;
+    margin-left: 13px;
+}
+
+.professional-skills:before{
+  content: '';
+  display: inline-block;
+  background: url("../img/skills.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+}
+
+.img img{
+    width: 80px;
+    margin-top: 16px;
+}
+
+.pack-icon {
+	margin: 0 auto;
+    width: 85%;
+}
+
+.skills {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	margin-top: 20px;
+}
+
+.skills-icon {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+   margin-top: 20px;
+}
+
+.skills-desk {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+ .skill-desk {
+   width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about-skills{
+   margin-left: 40px;
+}
+
+.about-skills-pg{
+   font-family: 'Lato';
+   color: #5a6a74;
+   font-size: 14px;
+   font-weight: 400; 
+    line-height: 1.5;
+}
+
+span{
+   color: #556068;
+   font-size: 15px;
+   font-family: 'Lato';
+   font-weight: 500;
+}
+
+.namesk {
+   color: #556068;
+   text-transform: uppercase;
+   font-size: 16px;
+   padding-top: 10px;
+    font-weight: 600;
+}
+
+/* Personal Skills block css*/
+.personal-skills__title:after {
+   width: 279px;
+}
+
+.personal-skills__title:before{
+    content: '';
+  display: inline-block;
+  background: url("../img/skills2.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+}
+
+.personal-languages__title:before{
+    content: '';
+  display: inline-block;
+  background: url("../img/skills3.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+}
+
+.work-experience__title:before{
+    content: '';
+  display: inline-block;
+  background: url("../img/skills4.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+}
+
+.eduction__title{
+    margin-top: 20px;
+}
+
+
+
+    .eduction__title:before{
+    content: '';
+  display: inline-block;
+  background: url("../img/skills5.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+    
+}
+
+.awards__title:before{
+    content: '';
+  display: inline-block;
+  background: url("../img/skills6.png") no-repeat;
+  background-size: contain;
+  height: 70px;
+  width: 100px;
+}
+
+.personal-skills{
+/*    width: 450px;*/
+   display: flex;
+   justify-content: flex-end;
+/*        margin-: 46px;*/
+   
+}
+
+.title-skills{
+   display: flex;
+    justify-content: space-between;
+   margin-top: 16px;
+}
+
+.title-skills__span{
+   font-family: Lato;
+   font-weight: 400;
+   text-transform: uppercase;
+   font-size: 14px;
+   color: #556068;
+   line-height: 2;
+}
+
+.line-skills__red{
+   width: 515px;
+   height: 10px;
+   background-color: #d46253;
+}
+
+.line-skills__aqua{
+   width: 515px;
+   height: 10px;
+   background-color: #69b7cf;
+}
+
+.line-skills__yellow{
+   width: 515px;
+   height: 10px;
+   background-color: #e7a930;
+}
+
+.line-skills__green{
+   width: 515px;
+   height: 10px;
+   background-color: #9bbf53;
+}
+
+.line-square{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: orange;
+}
+
+.line-square{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: orange;
+}
+
+.line-square-red{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: #d25549;
+}
+
+.square-languages{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+
+.line-square-gray{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: #d0d1d2;
+}
+
+.line-square-blue{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: #69b7cf;
+}
+
+.line-square-green{
+   display: inline-block;
+   height: 17px;
+   width: 15px;
+   background-color: #afd63c;
+}
+
+/* Personal Skills block css*/
+.personal-languages__title:after {
+   width: 340px;
+}
+
+.personal-languages {
+   width: 93%;
+   margin-left: 38px;
+   margin-top: 20px;
+}
+
+.languages-blocks {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   -moz-flex-direction: column;
+   -ms-flex-direction: column;
+   -o-flex-direction: column;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.title-languages {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.footer{
+    background-color: #705ea2;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.circle {
+	width: 23px;
+	height: 23px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: #515d65 2px solid;
+    background-color: white;
+/*    margin-top: 40px;*/
+/*
+    margin-top: 36px;
+    margin-bottom: 120px;
+*/
+}
+
+.one{
+   margin-top: 35px; 
+}
+
+.two{
+     margin-top: 125px; 
+}
+
+.three{
+      margin-top: 125px; 
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    margin: 19px 8px 0;
+    height: 130px; 
+    width: 560px; 
+    border-left: 2px solid #515d65;  
+    padding-left: 10px;
+}
+
+.line__three{
+    height: 70px;
+}
+
+.line__two{
+    height: 47px;
+}
+
+.work-experience__title:after {
+   width: 177px;
+}
+
+.awards__title:after {
+   width: 279px;
+}
+
+.awards__title{
+    margin-top: 40px;
+}
+
+.eduction__title:after {
+   width: 250px;
+}
+
+.icon_awards {
+  width: 113%;
+}
